@@ -1,0 +1,86 @@
+*{
+    margin: 1vh;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    padding: 15vh;
+    background-color: black;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: x-large;
+}
+body{
+    color: black;
+    line-height: 10vh;
+    margin-bottom: 20vh;
+    background-color: green;
+}
+a{
+    color: blue;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-left: 15vh;
+    line-height: 3.75;
+    text-shadow: 20px 10px 50px white;
+}
+a:hover{
+    color: brown;
+    font-size: 35px;
+    font-variant-caps: all-petite-caps;
+    font-family: algerian;
+}
+.bag{
+    width: 50vh;
+    height: 50vh;
+    margin-top: 10vh;
+    margin-bottom: 7vh;
+    margin-left: 10vh;
+}
+h1{
+    font-family: algerian;
+    font-size: 15vh;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+h2{
+    font-family: cursive;
+    font-size: 7vh;
+    margin-left: 15vh;
+    margin-top: 20vh;
+    text-align: center;
+}
+p{
+    font-family: fantasy;
+    font-size: x-large;
+}
+li{
+    font-size: x-large;
+    font-family: fantasy;
+    margin-left: 10vh;
+}
+h3{
+    font-size: 5vh;
+    font-family: system;
+    margin-left: 10vh;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    padding-right: 6vmax;
+    border-radius: 20px;
+}
+.abs{
+    margin-top: 10vh;
+}
